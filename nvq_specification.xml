@@ -1,0 +1,20 @@
+<NvqSpecification version="1.0.0">
+    <Modules>
+        <Module Code="EAMD4-001">        
+            <PerformanceRequirements>
+                <Performance Code="P1" />
+            </PerformanceRequirements>
+            <SkillRequirements>
+                <Skill Code="S1">
+                    <Criteria NumberToMeet="4" Unique="true" />
+                    <Points>
+                        <SkillPoint Code="S1.1" />
+                        <SkillPoint Code="S1.2(i)" />
+                        <SkillPoint Code="S1.2(ii)" />
+                        <SkillPoint Code="S1.2(iii)" />
+                    </Points>
+                </Skill>
+            </SkillRequirements>
+        </Module>
+    </Modules>
+</NvqSpecification>
