@@ -78,7 +78,12 @@ namespace Scaper
                 }
             }
         }
-        
+
+        public void WriteInfo(string message)
+        {
+            Write("Info: " + message, ConsoleColor.Gray);
+        }
+
         public void WriteWarning(string warningMessage)
         {
             Write("Warning: " + warningMessage, ConsoleColor.Yellow);

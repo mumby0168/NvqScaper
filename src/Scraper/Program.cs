@@ -103,7 +103,15 @@ namespace Scaper
                         {
                             code = code.Remove(code.Length - 1, 1);
                         }
+
+                        if ((code[0] != 'p' && code[0] != 'P') && (code[0] != 's' && code[0] != 'S') &&
+                            code.Contains('.'))
+                        {
+                            _sink.WriteInfo($"Code ({code}) doesn't start with a S or P and contains a '.'. Prefixing with an S.");
+                            code = "S" + code;
+                        }
                         
+
                         if (code[0] == 'p' || code[0] == 'P')
                         {
                             var performance = module.GetPerformance(code);
@@ -115,7 +123,7 @@ namespace Scaper
                             
                             performance.NumberOfTimesMet = int.Parse(badge.InnerText);
                         }
-                        else
+                        else if (code[0] == 's' || code[0] == 'S')
                         {
                             var skill = module.GetSkill(code.Split('.')[0]);
                             if (skill == null)

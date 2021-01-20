@@ -10,5 +10,6 @@ namespace Scaper
         void WriteModuleGapAnalysis(Module module);
         void WriteWarning(string s);
         void WriteModuleSummary(Module nvqModule);
+        void WriteInfo(string s);
     }
 }
