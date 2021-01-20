@@ -1,0 +1,1357 @@
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-status-panel {
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-status-panel strong {
+  font-size: 30px;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted {
+  color: #ffffff !important;
+  background-color: #9d9d9c !important;
+  border-color: #9d9d9c !important;
+  margin-bottom: 5px;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted.focus {
+  color: #ffffff !important;
+  background-color: #848482;
+  border-color: #5d5d5c;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted:hover {
+  color: #ffffff !important;
+  background-color: #848482;
+  border-color: #7f7f7d;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started.active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010.active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted {
+  color: #ffffff;
+  background-color: #848482;
+  border-color: #7f7f7d;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started.active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010.active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted.active:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started.active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010.active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted.active:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started.active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010.active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted.active.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted.focus {
+  color: #ffffff;
+  background-color: #727271;
+  border-color: #5d5d5c;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started.active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010.active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted {
+  background-image: none;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started[disabled]:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010[disabled]:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted[disabled]:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started[disabled]:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010[disabled]:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted[disabled]:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started[disabled].focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010[disabled].focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted[disabled].focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started.focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010.focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted.focus {
+  background-color: #9d9d9c;
+  border-color: #9d9d9c;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started .badge,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010 .badge,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted .badge {
+  color: #9d9d9c;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-not-started:after,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20010:after,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-notstarted:after {
+  content: "" !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020 {
+  color: #ffffff !important;
+  background-color: #00b5e2 !important;
+  border-color: #00b5e2 !important;
+  margin-bottom: 5px;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020.focus {
+  color: #ffffff !important;
+  background-color: #008caf;
+  border-color: #004f62;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020:hover {
+  color: #ffffff !important;
+  background-color: #008caf;
+  border-color: #0084a5;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started.active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020 {
+  color: #ffffff;
+  background-color: #008caf;
+  border-color: #0084a5;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started.active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020.active:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started.active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020.active:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started.active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020.active.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020.focus {
+  color: #ffffff;
+  background-color: #00708b;
+  border-color: #004f62;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started.active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020 {
+  background-image: none;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started[disabled]:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020[disabled]:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started[disabled]:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020[disabled]:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started[disabled].focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020[disabled].focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started.focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020.focus {
+  background-color: #00b5e2;
+  border-color: #00b5e2;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started .badge,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020 .badge {
+  color: #00b5e2;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-started:after,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20020:after {
+  content: "" !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted {
+  color: #ffffff !important;
+  background-color: #0077c8 !important;
+  border-color: #0077c8 !important;
+  margin-bottom: 5px;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted.focus {
+  color: #ffffff !important;
+  background-color: #005995;
+  border-color: #002b49;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted:hover {
+  color: #ffffff !important;
+  background-color: #005995;
+  border-color: #00538b;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted {
+  color: #ffffff;
+  background-color: #005995;
+  border-color: #00538b;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted.active:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted.active:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted.active.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted.focus {
+  color: #ffffff;
+  background-color: #004371;
+  border-color: #002b49;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted {
+  background-image: none;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted[disabled]:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted[disabled]:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted[disabled].focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted.focus {
+  background-color: #0077c8;
+  border-color: #0077c8;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted .badge {
+  color: #0077c8;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-submitted:after {
+  content: "" !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue {
+  color: #ffffff !important;
+  background-color: #da291c !important;
+  border-color: #da291c !important;
+  margin-bottom: 5px;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue.focus {
+  color: #ffffff !important;
+  background-color: #ad2116;
+  border-color: #69140d;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue:hover {
+  color: #ffffff !important;
+  background-color: #ad2116;
+  border-color: #a41f15;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue {
+  color: #ffffff;
+  background-color: #ad2116;
+  border-color: #a41f15;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue.active:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue.active:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue.active.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue.focus {
+  color: #ffffff;
+  background-color: #8d1b12;
+  border-color: #69140d;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue {
+  background-image: none;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue[disabled]:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue[disabled]:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue[disabled].focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue.focus {
+  background-color: #da291c;
+  border-color: #da291c;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue .badge {
+  color: #da291c;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-overdue:after {
+  content: "" !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned {
+  color: #ffffff !important;
+  background-color: #cca700 !important;
+  border-color: #cca700 !important;
+  margin-bottom: 5px;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned.focus {
+  color: #ffffff !important;
+  background-color: #997d00;
+  border-color: #4d3f00;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned:hover {
+  color: #ffffff !important;
+  background-color: #997d00;
+  border-color: #8f7500;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned {
+  color: #ffffff;
+  background-color: #997d00;
+  border-color: #8f7500;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned.active:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned.active:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned.active.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned.focus {
+  color: #ffffff;
+  background-color: #756000;
+  border-color: #4d3f00;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned {
+  background-image: none;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned[disabled]:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned[disabled]:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned[disabled].focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned.focus {
+  background-color: #cca700;
+  border-color: #cca700;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned .badge {
+  color: #cca700;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-returned:after {
+  content: "" !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030 {
+  color: #ffffff !important;
+  background-color: #00b140 !important;
+  border-color: #00b140 !important;
+  margin-bottom: 5px;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030.focus {
+  color: #ffffff !important;
+  background-color: #007e2e;
+  border-color: #003112;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030:hover {
+  color: #ffffff !important;
+  background-color: #007e2e;
+  border-color: #00742a;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed.active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030 {
+  color: #ffffff;
+  background-color: #007e2e;
+  border-color: #00742a;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed.active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030.active:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed.active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030.active:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed.active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030.active.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030.focus {
+  color: #ffffff;
+  background-color: #005a21;
+  border-color: #003112;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed.active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030 {
+  background-image: none;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed[disabled]:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030[disabled]:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed[disabled]:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030[disabled]:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed[disabled].focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030[disabled].focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed.focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030.focus {
+  background-color: #00b140;
+  border-color: #00b140;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed .badge,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030 .badge {
+  color: #00b140;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-completed:after,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20030:after {
+  content: "" !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred {
+  color: #ffffff !important;
+  background-color: #ffa300 !important;
+  border-color: #ffa300 !important;
+  margin-bottom: 5px;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred.focus {
+  color: #ffffff !important;
+  background-color: #cc8200;
+  border-color: #805200;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred:hover {
+  color: #ffffff !important;
+  background-color: #cc8200;
+  border-color: #c27c00;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred {
+  color: #ffffff;
+  background-color: #cc8200;
+  border-color: #c27c00;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred.active:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred.active:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred.active.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred.focus {
+  color: #ffffff;
+  background-color: #a86c00;
+  border-color: #805200;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred {
+  background-image: none;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred[disabled]:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred[disabled]:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred[disabled].focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred.focus {
+  background-color: #ffa300;
+  border-color: #ffa300;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred .badge {
+  color: #ffa300;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-referred:after {
+  content: "" !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040 {
+  color: #ffffff !important;
+  background-color: #e10098 !important;
+  border-color: #e10098 !important;
+  margin-bottom: 5px;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040.focus {
+  color: #ffffff !important;
+  background-color: #ae0076;
+  border-color: #620042;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040:hover {
+  color: #ffffff !important;
+  background-color: #ae0076;
+  border-color: #a4006f;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified.active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040 {
+  color: #ffffff;
+  background-color: #ae0076;
+  border-color: #a4006f;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified.active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040.active:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified.active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040.active:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified.active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040.active.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040.focus {
+  color: #ffffff;
+  background-color: #8a005d;
+  border-color: #620042;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified.active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040 {
+  background-image: none;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified[disabled]:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040[disabled]:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified[disabled]:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040[disabled]:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified[disabled].focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040[disabled].focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified.focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040.focus {
+  background-color: #e10098;
+  border-color: #e10098;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified .badge,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040 .badge {
+  color: #e10098;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-verified:after,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .btn-status-20040:after {
+  content: "" !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-not-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20010,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-notstarted {
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-not-started > .panel-heading,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20010 > .panel-heading,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-notstarted > .panel-heading {
+  color: #ffffff;
+  background-color: #9d9d9c;
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-not-started > .panel-heading + .panel-collapse > .panel-body,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20010 > .panel-heading + .panel-collapse > .panel-body,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-notstarted > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-not-started > .panel-heading .badge,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20010 > .panel-heading .badge,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-notstarted > .panel-heading .badge {
+  color: #9d9d9c;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-not-started > .panel-footer + .panel-collapse > .panel-body,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20010 > .panel-footer + .panel-collapse > .panel-body,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-notstarted > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-not-started .progress-bar,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20010 .progress-bar,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-notstarted .progress-bar {
+  background: #9d9d9c !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-not-started .panel-heading a,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20010 .panel-heading a,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-notstarted .panel-heading a {
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-not-started .panel-heading a:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20010 .panel-heading a:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-notstarted .panel-heading a:hover {
+  text-decoration: underline;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20020 {
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-started > .panel-heading,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20020 > .panel-heading {
+  color: #ffffff;
+  background-color: #00b5e2;
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-started > .panel-heading + .panel-collapse > .panel-body,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20020 > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-started > .panel-heading .badge,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20020 > .panel-heading .badge {
+  color: #00b5e2;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-started > .panel-footer + .panel-collapse > .panel-body,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20020 > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-started .progress-bar,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20020 .progress-bar {
+  background: #00b5e2 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-started .panel-heading a,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20020 .panel-heading a {
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-started .panel-heading a:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20020 .panel-heading a:hover {
+  text-decoration: underline;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-submitted {
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-submitted > .panel-heading {
+  color: #ffffff;
+  background-color: #0077c8;
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-submitted > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-submitted > .panel-heading .badge {
+  color: #0077c8;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-submitted > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-submitted .progress-bar {
+  background: #0077c8 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-submitted .panel-heading a {
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-submitted .panel-heading a:hover {
+  text-decoration: underline;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-overdue {
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-overdue > .panel-heading {
+  color: #ffffff;
+  background-color: #da291c;
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-overdue > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-overdue > .panel-heading .badge {
+  color: #da291c;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-overdue > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-overdue .progress-bar {
+  background: #da291c !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-overdue .panel-heading a {
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-overdue .panel-heading a:hover {
+  text-decoration: underline;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-returned {
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-returned > .panel-heading {
+  color: #ffffff;
+  background-color: #cca700;
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-returned > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-returned > .panel-heading .badge {
+  color: #cca700;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-returned > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-returned .progress-bar {
+  background: #cca700 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-returned .panel-heading a {
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-returned .panel-heading a:hover {
+  text-decoration: underline;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-completed,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20030 {
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-completed > .panel-heading,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20030 > .panel-heading {
+  color: #ffffff;
+  background-color: #00b140;
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-completed > .panel-heading + .panel-collapse > .panel-body,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20030 > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-completed > .panel-heading .badge,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20030 > .panel-heading .badge {
+  color: #00b140;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-completed > .panel-footer + .panel-collapse > .panel-body,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20030 > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-completed .progress-bar,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20030 .progress-bar {
+  background: #00b140 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-completed .panel-heading a,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20030 .panel-heading a {
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-completed .panel-heading a:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20030 .panel-heading a:hover {
+  text-decoration: underline;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-referred {
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-referred > .panel-heading {
+  color: #ffffff;
+  background-color: #ffa300;
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-referred > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-referred > .panel-heading .badge {
+  color: #ffa300;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-referred > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-referred .progress-bar {
+  background: #ffa300 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-referred .panel-heading a {
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-referred .panel-heading a:hover {
+  text-decoration: underline;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-verified,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20040 {
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-verified > .panel-heading,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20040 > .panel-heading {
+  color: #ffffff;
+  background-color: #e10098;
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-verified > .panel-heading + .panel-collapse > .panel-body,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20040 > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-verified > .panel-heading .badge,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20040 > .panel-heading .badge {
+  color: #e10098;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-verified > .panel-footer + .panel-collapse > .panel-body,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20040 > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-verified .progress-bar,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20040 .progress-bar {
+  background: #e10098 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-verified .panel-heading a,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20040 .panel-heading a {
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-verified .panel-heading a:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .panel-status-20040 .panel-heading a:hover {
+  text-decoration: underline;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-not-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-20010,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-10010,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-notstarted {
+  background: #9d9d9c !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-20020,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-10020 {
+  background: #00b5e2 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-submitted,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-10030,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-10045 {
+  background: #0077c8 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-overdue {
+  background: #da291c !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-returned,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-10040 {
+  background: #cca700 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-completed,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-20030,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-10050,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-10055 {
+  background: #00b140 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-referred,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-10070 {
+  background: #ffa300 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-verified,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-20040,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .label-10060 {
+  background: #e10098 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-not-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-20010,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-10010,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-notstarted {
+  color: #9d9d9c;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-20020,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-10020,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-10040 {
+  color: #00b5e2;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-submitted,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-10030,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-10045 {
+  color: #0077c8;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-overdue {
+  color: #da291c;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-returned,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-10040,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-10045 {
+  color: #cca700;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-completed,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-20030,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-10050,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-10055 {
+  color: #00b140;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-referred,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-10070 {
+  color: #ffa300;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-verified,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-20040,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .text-10060 {
+  color: #e10098;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .bg-not-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .bg-20010 {
+  background: #9d9d9c !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .bg-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .bg-20020 {
+  background: #00b5e2 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .bg-submitted {
+  background: #0077c8 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .bg-overdue {
+  background: #da291c !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .bg-returned {
+  background: #cca700 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .bg-completed,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .bg-20030 {
+  background: #00b140 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .bg-referred {
+  background: #ffa300 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .bg-verified,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .bg-20040 {
+  background: #e10098 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-bar-not-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-bar-20010,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-not-started .progress-bar,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-expected .progress-bar {
+  background: #9d9d9c !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-bar-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-bar-20020,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-started .progress-bar {
+  background: #00b5e2 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-bar-submitted,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-submitted .progress-bar {
+  background: #0077c8 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-bar-overdue,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-overdue .progress-bar {
+  background: #da291c !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-bar-returned,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-returned .progress-bar {
+  background: #cca700 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-bar-completed,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-bar-20030,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-completed .progress-bar {
+  background: #00b140 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-bar-referred,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-referred .progress-bar {
+  background: #ffa300 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-bar-verified,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-bar-20040,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .progress-verified .progress-bar {
+  background: #e10098 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-not-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-20010,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-10010,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-notstarted {
+  background: #9d9d9c;
+  color: #fff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-20020,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-10020 {
+  background: #00b5e2;
+  color: #fff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-submitted,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-10030,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-10045 {
+  background: #0077c8;
+  color: #fff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-overdue {
+  background: #da291c;
+  color: #fff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-returned,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-10040 {
+  background: #cca700;
+  color: #fff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-completed,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-20030,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-10050,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-10055 {
+  background: #00b140;
+  color: #fff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-referred,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-10070 {
+  background: #ffa300;
+  color: #fff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-verified,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-20040,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 td.td-10060 {
+  background: #e10098;
+  color: #fff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .badge.badge-success {
+  background: #00b140 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .block-inline {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  background: #9d9d9c !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .block-inline.not-started {
+  background: #9d9d9c !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .block-inline.started {
+  background: #00b5e2 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .block-inline.submitted {
+  background: #0077c8 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .block-inline.overdue {
+  background: #da291c !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .block-inline.returned {
+  background: #cca700 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .block-inline.completed {
+  background: #00b140 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .block-inline.referred {
+  background: #ffa300 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .block-inline.verified {
+  background: #e10098 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .block-inline.full-width {
+  display: block;
+  text-align: center;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-legend .status {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 2px;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-legend .status.status-not-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-legend .status.status-20010 {
+  background: #9d9d9c !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-legend .status.status-started,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-legend .status.status-20020 {
+  background: #00b5e2 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-legend .status.status-submitted {
+  background: #0077c8 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-legend .status.status-overdue {
+  background: #da291c !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-legend .status.status-returned {
+  background: #cca700 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-legend .status.status-completed,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-legend .status.status-20030 {
+  background: #00b140 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-legend .status.status-referred {
+  background: #ffa300 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-legend .status.status-verified,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3 .unit-legend .status.status-20040 {
+  background: #e10098 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified {
+  color: #ffffff !important;
+  background-color: #00b140 !important;
+  border-color: #00b140 !important;
+  margin-bottom: 5px;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified.focus {
+  color: #ffffff !important;
+  background-color: #007e2e;
+  border-color: #003112;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified:hover {
+  color: #ffffff !important;
+  background-color: #007e2e;
+  border-color: #00742a;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040.active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified {
+  color: #ffffff;
+  background-color: #007e2e;
+  border-color: #00742a;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified:active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040.active:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified.active:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040:hover,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified:active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040.active:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified.active:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040:focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified:active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040.active.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified.active.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040.focus,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified.focus {
+  color: #ffffff;
+  background-color: #005a21;
+  border-color: #003112;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified:active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040.active,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified.active,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040,
+.open > .dropdown-toggle.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified {
+  background-image: none;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified.disabled:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040[disabled]:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified[disabled]:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040:hover,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified:hover,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified.disabled:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040[disabled]:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified[disabled]:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040:focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified:focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified.disabled.focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040[disabled].focus,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified[disabled].focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040.focus,
+fieldset[disabled] .status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified.focus {
+  background-color: #00b140;
+  border-color: #00b140;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040 .badge,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified .badge {
+  color: #00b140;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-20040:after,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .btn-status-verified:after {
+  content: "" !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .panel-status-20040 {
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .panel-status-20040 > .panel-heading {
+  color: #ffffff;
+  background-color: #00b140;
+  border-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .panel-status-20040 > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .panel-status-20040 > .panel-heading .badge {
+  color: #00b140;
+  background-color: #ffffff;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .panel-status-20040 > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .panel-status-20040 .progress-bar {
+  background: #00b140 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .panel-status-20040 .panel-heading a {
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .panel-status-20040 .panel-heading a:hover {
+  text-decoration: underline;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .label-verified,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .label-20040,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .label-10060 {
+  background: #00b140 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .text-verified,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .text-20040,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .text-10060 {
+  color: #00b140;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .bg-verified,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .bg-20040 {
+  background: #00b140 !important;
+  color: #ffffff !important;
+}
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .progress-bar-verified,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .progress-bar-20040,
+.status_scheme_0F46735169F9E8119E18F816540B9CA3.usergroup-candidate .progress-verified .progress-bar {
+  background: #00b140 !important;
+  color: #ffffff !important;
+}
+
