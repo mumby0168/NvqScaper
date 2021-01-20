@@ -10,23 +10,40 @@ namespace Scaper
 
     record Module(string Name, IEnumerable<Criteria> Criteria);
     
-    
     public class Program
     {
+        public enum AvailableSinks
+        {
+            Console=1
+        }
+        
+        private static ISink _sink = null;
+        
         /// <param name="gapAnalysis">A path to the course (html) of your gap analysis</param>
         /// <param name="showGaps">Whether to only show gaps defaults to true</param>
         /// <param name="lookAt">A module to print out i.e. EAMD4-114</param>
-        static void Main(FileInfo gapAnalysis, string lookAt = null, bool showGaps = true)
+        /// /// <param name="sinkType">The type of sink to use to write output</param>
+        static void Main(FileInfo gapAnalysis, string lookAt = null, bool showGaps = true, AvailableSinks sinkType = AvailableSinks.Console)
         {
+            switch (sinkType)
+            {
+                default:
+                    throw new ArgumentException("Invalid sink type value.");
+                
+                case AvailableSinks.Console:
+                    _sink = new ConsoleSink();
+                    break;
+            }
+            
             if (gapAnalysis is null)
             {
-                Fail($@"Please provide a file to process or use the -h option to see the help menu.");
+                _sink.WriteError($@"Please provide a file to process or use the -h option to see the help menu.");
                 return;
             }
             
             if (!gapAnalysis.Exists)
             {
-                Fail($@"{gapAnalysis} cannot be found to process");
+                _sink.WriteError($@"{gapAnalysis} cannot be found to process");
                 return;
             }
 
@@ -38,7 +55,7 @@ namespace Scaper
             var folder = courseFolder.FirstOrDefault();
             if (folder is null)
             {
-                Fail("Cannot find a node with the class course-folder");
+                _sink.WriteError("Cannot find a node with the class course-folder");
                 return;
             }
 
@@ -80,18 +97,18 @@ namespace Scaper
                 modules.Add(new Module(title.ChildNodes.First().InnerText, criteria));
             }
             
-            WriteColor($"Outputting .......", ConsoleColor.Green);
+            _sink.Write($"Outputting .......", ConsoleColor.Green);
 
             if (lookAt is not null)
             {
                 var module = modules.FirstOrDefault(m => m.Name == lookAt);
                 if (module is null)
                 {
-                    Fail($"{lookAt} cannot be found");
+                    _sink.WriteError($"{lookAt} cannot be found");
                 }
                 else
                 {
-                    WriteColor(module.Name, ConsoleColor.Cyan);
+                    _sink.Write(module.Name, ConsoleColor.Cyan);
                     WriteCriteria(showGaps, module);
                 }
             }
@@ -99,13 +116,10 @@ namespace Scaper
             {
                 foreach (var module in modules)
                 {
-                    WriteColor(module.Name, ConsoleColor.Cyan);
+                    _sink.Write(module.Name, ConsoleColor.Cyan);
                     WriteCriteria(showGaps, module);
                 }
             }
-
-
-
         }
 
         private static void WriteCriteria(bool showGaps, Module module)
@@ -116,30 +130,14 @@ namespace Scaper
                 {
                     if (criteria.Count < 3)
                     {
-                        WriteColor($"\t[{criteria.Count}] {criteria.Code}", ConsoleColor.Magenta);
+                        _sink.Write($"\t[{criteria.Count}] {criteria.Code}", ConsoleColor.Magenta);
                     }
                 }
                 else
                 {
-                    WriteColor($"\t[{criteria.Count}] {criteria.Code}", ConsoleColor.Magenta);
+                    _sink.Write($"\t[{criteria.Count}] {criteria.Code}", ConsoleColor.Magenta);
                 }
             }
-        }
-
-
-        private static void WriteColor(string text, ConsoleColor color)
-        {
-            Console.ForegroundColor = color;
-            Console.WriteLine(text);
-            Console.ResetColor();
-        }
-
-
-        private static void Fail(string message)
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(message);
-            Console.ResetColor();
         }
     }
 }
