@@ -2,14 +2,12 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Xml.Serialization;
 using HtmlAgilityPack;
+using Scaper.Specification;
 
 namespace Scaper
 {
-    record Criteria(int Count, string Code);
-
-    record Module(string Name, IEnumerable<Criteria> Criteria);
-    
     public class Program
     {
         public enum AvailableSinks
@@ -18,12 +16,14 @@ namespace Scaper
         }
         
         private static ISink _sink = null;
-        
+        private static NvqSpecification _nvq = null;
+
         /// <param name="gapAnalysis">A path to the course (html) of your gap analysis</param>
         /// <param name="showGaps">Whether to only show gaps defaults to true</param>
+        /// <param name="nvqSpecification">The path to the nvq specification file</param>
         /// <param name="lookAt">A module to print out i.e. EAMD4-114</param>
         /// /// <param name="sinkType">The type of sink to use to write output</param>
-        static void Main(FileInfo gapAnalysis, string lookAt = null, bool showGaps = true, AvailableSinks sinkType = AvailableSinks.Console)
+        static void Main(FileInfo gapAnalysis, FileInfo nvqSpecification=null, string lookAt = null, bool showGaps = true, AvailableSinks sinkType = AvailableSinks.Console)
         {
             switch (sinkType)
             {
@@ -34,6 +34,16 @@ namespace Scaper
                     _sink = new ConsoleSink();
                     break;
             }
+            
+            
+            if (nvqSpecification == null)
+            {
+                nvqSpecification = new FileInfo("nvq_specification.xml");
+            }
+            _nvq = NvqSpecification.Load(nvqSpecification.FullName);
+
+            _sink.Write($"Loaded NVQ Specification, version {_nvq.Version}.");
+
             
             if (gapAnalysis is null)
             {
@@ -60,15 +70,12 @@ namespace Scaper
             }
 
             var chapterBlocks = folder.Descendants().Where(d => d.HasClass("chapter-block")).ToList();
-
-            var modules = new List<Module>();
-            
+            _sink.Write($"Found {chapterBlocks.Count} modules");
             
             foreach (var block in chapterBlocks)
             {
-                Console.WriteLine($"Found {chapterBlocks.Count} modules");
                 var title = block.Descendants().First(d => d.HasClass("hr-text"));
-                Console.WriteLine($"{title.InnerText} processing");
+                _sink.Write($"Processing {title.InnerText}");
 
                 var table = block.Descendants().First(d => d.HasClass("table"));
                 var body = table.Descendants().First(d => d.Name == "tbody");
@@ -76,8 +83,14 @@ namespace Scaper
                 var cols = body.Descendants().Where(d => d.Name == "td").ToList();
                 var contentCol = cols[1];
 
-                var criteria = new List<Criteria>();
+                var module = _nvq.GetModule(title.ChildNodes.First().InnerText);
 
+                if (module == null)
+                {
+                    _sink.WriteWarning($"Module with the name {title.ChildNodes.First().InnerText} cannot be found!");
+                    continue;
+                }
+                
                 var pTags = contentCol.Descendants().Where(d => d.Name == "p").ToList();
                 foreach (var tag in pTags)
                 {
@@ -90,52 +103,84 @@ namespace Scaper
                         {
                             code = code.Remove(code.Length - 1, 1);
                         }
-                        criteria.Add(new Criteria(int.Parse(badge.InnerText), code));
+
+                        if ((code[0] != 'p' && code[0] != 'P') && (code[0] != 's' && code[0] != 'S') &&
+                            code.Contains('.'))
+                        {
+                            _sink.WriteInfo($"Code ({code}) doesn't start with a S or P and contains a '.'. Prefixing with an S.");
+                            code = "S" + code;
+                        }
+                        
+
+                        if (code[0] == 'p' || code[0] == 'P')
+                        {
+                            var performance = module.GetPerformance(code);
+                            if (performance == null)
+                            {
+                                _sink.WriteWarning($"Performance point with the code {code} cannot be found!");
+                                continue;
+                            }
+                            
+                            performance.NumberOfTimesMet = int.Parse(badge.InnerText);
+                        }
+                        else if (code[0] == 's' || code[0] == 'S')
+                        {
+                            var skill = module.GetSkill(code.Split('.')[0]);
+                            if (skill == null)
+                            {
+                                _sink.WriteWarning($"Skill with the start of the code as {code.Split('.')[0]} cannot be found!");
+                                continue;
+                            }
+                            
+                            var skillPoint = skill.GetPoint(code);
+                            if (skillPoint == null)
+                            {
+                                _sink.WriteWarning($"Skill point with the code as {code} cannot be found!");
+                                continue;
+                            }
+                            
+                            skillPoint.NumberOfTimesMet = int.Parse(badge.InnerText);
+                        }
                     }
                 }
-                
-                modules.Add(new Module(title.ChildNodes.First().InnerText, criteria));
             }
             
             _sink.Write($"Outputting .......", ConsoleColor.Green);
 
             if (lookAt is not null)
             {
-                var module = modules.FirstOrDefault(m => m.Name == lookAt);
-                if (module is null)
-                {
-                    _sink.WriteError($"{lookAt} cannot be found");
-                }
-                else
-                {
-                    _sink.Write(module.Name, ConsoleColor.Cyan);
-                    WriteCriteria(showGaps, module);
-                }
-            }
-            else
-            {
-                foreach (var module in modules)
-                {
-                    _sink.Write(module.Name, ConsoleColor.Cyan);
-                    WriteCriteria(showGaps, module);
-                }
-            }
-        }
-
-        private static void WriteCriteria(bool showGaps, Module module)
-        {
-            foreach (var criteria in module.Criteria)
-            {
+                var module = _nvq.GetModule(lookAt);
+                
                 if (showGaps)
                 {
-                    if (criteria.Count < 3)
+                    foreach (var nvqModule in _nvq.Modules)
                     {
-                        _sink.Write($"\t[{criteria.Count}] {criteria.Code}", ConsoleColor.Magenta);
+                        _sink.WriteModuleGapAnalysis(nvqModule);
                     }
                 }
                 else
                 {
-                    _sink.Write($"\t[{criteria.Count}] {criteria.Code}", ConsoleColor.Magenta);
+                    foreach (var nvqModule in _nvq.Modules)
+                    {
+                        _sink.WriteModuleSummary(nvqModule);
+                    }
+                }
+            }
+            else
+            {
+                if (showGaps)
+                {
+                    foreach (var nvqModule in _nvq.Modules)
+                    {
+                        _sink.WriteModuleGapAnalysis(nvqModule);
+                    }
+                }
+                else
+                {
+                    foreach (var nvqModule in _nvq.Modules)
+                    {
+                        _sink.WriteModuleSummary(nvqModule);
+                    }
                 }
             }
         }

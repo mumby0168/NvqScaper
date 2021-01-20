@@ -1,0 +1,1026 @@
+<NvqSpecification Version="1.0.0">
+    <Modules>
+        <Module Code="EAMD4-001">        
+            <PerformanceRequirements>
+                    <Performance Code="P1" />
+                    <Performance Code="P2" />
+                    <Performance Code="P3" />
+                    <Performance Code="P4" />
+                    <Performance Code="P5" />
+                    <Performance Code="P6" />
+                    <Performance Code="P7" />
+            </PerformanceRequirements>
+            <SkillRequirements>
+                    <Skill Code="S1">
+                            <Criteria NumberToMeet="6" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S1.1" />
+                                    <SkillPoint Code="S1.2(i)" />
+                                    <SkillPoint Code="S1.2(ii)" />
+                                    <SkillPoint Code="S1.2(iii)" />
+                                    <SkillPoint Code="S1.3" />
+                                    <SkillPoint Code="S1.4" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S2">
+                            <Criteria NumberToMeet="4" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S2.1" />
+                                    <SkillPoint Code="S2.2" />
+                                    <SkillPoint Code="S2.3" />
+                                    <SkillPoint Code="S2.4" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S3">
+                            <Criteria NumberToMeet="4" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S3.1" />
+                                    <SkillPoint Code="S3.2" />
+                                    <SkillPoint Code="S3.3" />
+                                    <SkillPoint Code="S3.4" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S4">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S4.1" />
+                                    <SkillPoint Code="S4.2" />
+                                    <SkillPoint Code="S4.3" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S5">
+                            <Criteria NumberToMeet="4" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S5.1" />
+                                    <SkillPoint Code="S5.2" />
+                                    <SkillPoint Code="S5.3" />
+                                    <SkillPoint Code="S5.4" />
+                            </Points>
+                    </Skill>
+            </SkillRequirements>
+        </Module>
+        <Module Code="EAMD4-026">        
+            <PerformanceRequirements>
+                    <Performance Code="P1" />
+                    <Performance Code="P2" />
+                    <Performance Code="P3" />
+                    <Performance Code="P4" />
+                    <Performance Code="P5" />
+                    <Performance Code="P6" />
+                    <Performance Code="P7" />
+                    <Performance Code="P8" />
+            </PerformanceRequirements>
+            <SkillRequirements>
+                    <Skill Code="S1">
+                            <Criteria NumberToMeet="8" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S1.1" />
+                                    <SkillPoint Code="S1.2" />
+                                    <SkillPoint Code="S1.3" />
+                                    <SkillPoint Code="S1.4" />
+                                    <SkillPoint Code="S1.5" />
+                                    <SkillPoint Code="S1.6" />
+                                    <SkillPoint Code="S1.7" />
+                                    <SkillPoint Code="S1.8" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S2">
+                            <Criteria NumberToMeet="4" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S2.1" />
+                                    <SkillPoint Code="S2.2" />
+                                    <SkillPoint Code="S2.3" />
+                                    <SkillPoint Code="S2.4" />
+                                    <SkillPoint Code="S2.5" />
+                                    <SkillPoint Code="S2.6" />
+                                    <SkillPoint Code="S2.7" />
+                                    <SkillPoint Code="S2.8" />
+                                    <SkillPoint Code="S2.9" />
+                                    <SkillPoint Code="S2.10" />
+                                    <SkillPoint Code="S2.11" />
+                                    <SkillPoint Code="S2.12" />
+                                    <SkillPoint Code="S2.13" />
+                                    <SkillPoint Code="S2.14" />
+                                    <SkillPoint Code="S2.15" />
+                                    <SkillPoint Code="S2.16" />
+                                    <SkillPoint Code="S2.17" />
+                                    <SkillPoint Code="S2.18" />
+                                    <SkillPoint Code="S2.19" />
+                                    <SkillPoint Code="S2.20" />
+                                    <SkillPoint Code="S2.21" />
+                                    <SkillPoint Code="S2.22" />
+                                    <SkillPoint Code="S2.23" />
+                                    <SkillPoint Code="S2.24" />
+                                    <SkillPoint Code="S2.25" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S3">
+                            <Criteria NumberToMeet="6" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S3.1" />
+                                    <SkillPoint Code="S3.2" />
+                                    <SkillPoint Code="S3.3" />
+                                    <SkillPoint Code="S3.4" />
+                                    <SkillPoint Code="S3.5" />
+                                    <SkillPoint Code="S3.6" />
+                                    <SkillPoint Code="S3.7" />
+                                    <SkillPoint Code="S3.8" />
+                                    <SkillPoint Code="S3.9" />
+                                    <SkillPoint Code="S3.10" />
+                                    <SkillPoint Code="S3.11" />
+                                    <SkillPoint Code="S3.12" />
+                                    <SkillPoint Code="S3.13" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S4">
+                            <Criteria NumberToMeet="4" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S4.1" />
+                                    <SkillPoint Code="S4.2" />
+                                    <SkillPoint Code="S4.3" />
+                                    <SkillPoint Code="S4.4" />
+                                    <SkillPoint Code="S4.5" />
+                                    <SkillPoint Code="S4.6" />
+                                    <SkillPoint Code="S4.7" />
+                                    <SkillPoint Code="S4.8" />
+                                    <SkillPoint Code="S4.9" />
+                                    <SkillPoint Code="S4.10" />
+                                    <SkillPoint Code="S4.11" />
+                                    <SkillPoint Code="S4.12" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S5">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S5.1" />
+                                    <SkillPoint Code="S5.2" />
+                                    <SkillPoint Code="S5.3" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S6">
+                            <Criteria NumberToMeet="3" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S6.1" />
+                                    <SkillPoint Code="S6.2" />
+                                    <SkillPoint Code="S6.3" />
+                                    <SkillPoint Code="S6.4" />
+                                    <SkillPoint Code="S6.5" />
+                                    <SkillPoint Code="S6.6" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S7">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Mandatory="true" Code="S7.1" />
+                                    <SkillPoint Code="S7.2" />
+                                    <SkillPoint Code="S7.3" />
+                                    <SkillPoint Code="S7.4" />
+                                    <SkillPoint Code="S7.5" />
+                                    <SkillPoint Code="S7.6" />
+                            </Points>
+                    </Skill>
+            </SkillRequirements>
+        </Module>
+        <Module Code="EAMD4-034">        
+            <PerformanceRequirements>
+                    <Performance Code="P1" />
+                    <Performance Code="P2" />
+                    <Performance Code="P3" />
+                    <Performance Code="P4" />
+                    <Performance Code="P5" />
+                    <Performance Code="P6" />
+                    <Performance Code="P7" />
+                    <Performance Code="P8" />
+                    <Performance Code="P9" />
+            </PerformanceRequirements>
+            <SkillRequirements>
+                    <Skill Code="S1">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S1.1" />
+                                    <SkillPoint Code="S1.2" />
+                                    <SkillPoint Code="S1.3" />
+                                    <SkillPoint Code="S1.4" />
+                                    <SkillPoint Code="S1.5" />
+                                    <SkillPoint Code="S1.6" />
+                                    <SkillPoint Code="S1.7" />
+                                    <SkillPoint Code="S1.8" />
+                                    <SkillPoint Code="S1.9" />
+                                    <SkillPoint Code="S1.10" />
+                                    <SkillPoint Code="S1.11" />
+                                    <SkillPoint Code="S1.12" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S2">
+                            <Criteria NumberToMeet="1" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S2.1" />
+                                    <SkillPoint Code="S2.2" />
+                                    <SkillPoint Code="S2.3" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S3">
+                            <Criteria NumberToMeet="6" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S3.1" />
+                                    <SkillPoint Code="S3.2" />
+                                    <SkillPoint Code="S3.3" />
+                                    <SkillPoint Code="S3.4" />
+                                    <SkillPoint Code="S3.5" />
+                                    <SkillPoint Code="S3.6" />
+                                    <SkillPoint Code="S3.7" />
+                                    <SkillPoint Code="S3.8" />
+                                    <SkillPoint Code="S3.9" />
+                                    <SkillPoint Code="S3.10" />
+                                    <SkillPoint Code="S3.11" />
+                                    <SkillPoint Code="S3.12" />
+                                    <SkillPoint Code="S3.13" />
+                                    <SkillPoint Code="S3.14" />
+                                    <SkillPoint Code="S3.15" />
+                                    <SkillPoint Code="S3.16" />
+                                    <SkillPoint Code="S3.17" />
+                                    <SkillPoint Code="S3.18" />
+                                    <SkillPoint Code="S3.19" />
+                                    <SkillPoint Code="S3.20" />
+                                    <SkillPoint Code="S3.21" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S4">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S4.1" />
+                                    <SkillPoint Code="S4.2" />
+                                    <SkillPoint Code="S4.3" />
+                                    <SkillPoint Code="S4.4" />
+                                    <SkillPoint Code="S4.5" />
+                                    <SkillPoint Code="S4.6" />
+                                    <SkillPoint Code="S4.7" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S5">
+                            <Criteria NumberToMeet="3" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S5.1" />
+                                    <SkillPoint Code="S5.2" />
+                                    <SkillPoint Code="S5.3" />
+                                    <SkillPoint Code="S5.4" />
+                                    <SkillPoint Code="S5.5" />
+                                    <SkillPoint Code="S5.6" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S6">
+                            <Criteria NumberToMeet="6" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S6.1" />
+                                    <SkillPoint Code="S6.2" />
+                                    <SkillPoint Code="S6.3" />
+                                    <SkillPoint Code="S6.4" />
+                                    <SkillPoint Code="S6.5" />
+                                    <SkillPoint Code="S6.6" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S7">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Mandatory="true" Code="S7.1" />
+                                    <SkillPoint Code="S7.2" />
+                                    <SkillPoint Code="S7.3" />
+                                    <SkillPoint Code="S7.4" />
+                                    <SkillPoint Code="S7.5" />
+                                    <SkillPoint Code="S7.6" />
+                            </Points>
+                    </Skill>
+            </SkillRequirements>
+        </Module>
+        <Module Code="EAMD4-068">        
+            <PerformanceRequirements>
+            </PerformanceRequirements>
+            <SkillRequirements>
+                    <Skill Code="S1">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S1.1" />
+                                    <SkillPoint Code="S1.2" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S2">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S2.1" />
+                                    <SkillPoint Code="S2.2" />
+                            </Points>
+                    </Skill>
+            </SkillRequirements>
+        </Module>
+        <Module Code="EAMD4-077">        
+            <PerformanceRequirements>
+            </PerformanceRequirements>
+            <SkillRequirements>
+                    <Skill Code="S1">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S1.1" />
+                                    <SkillPoint Code="S1.2" />
+                            </Points>
+                    </Skill>
+            </SkillRequirements>
+        </Module>
+        <Module Code="EAMD4-089">        
+            <PerformanceRequirements>
+            </PerformanceRequirements>
+            <SkillRequirements>
+                    <Skill Code="S1">
+                            <Criteria NumberToMeet="4" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S1.1" />
+                                    <SkillPoint Code="S1.2" />
+                                    <SkillPoint Code="S1.3" />
+                                    <SkillPoint Code="S1.4" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S2">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S2.1" />
+                                    <SkillPoint Code="S2.2" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S3">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S3.1" />
+                                    <SkillPoint Code="S3.2" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S4">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S4.1" />
+                                    <SkillPoint Code="S4.2" />
+                            </Points>
+                    </Skill>
+            </SkillRequirements>
+        </Module>
+        <Module Code="EAMD4-114">        
+            <PerformanceRequirements>
+                    <Performance Code="P1" />
+                    <Performance Code="P2" />
+                    <Performance Code="P3" />
+                    <Performance Code="P4" />
+                    <Performance Code="P5" />
+                    <Performance Code="P6" />
+                    <Performance Code="P7" />
+                    <Performance Code="P8" />
+                    <Performance Code="P9" />
+                    <Performance Code="P10" />
+                    <Performance Code="P11" />
+                    <Performance Code="P12" />
+            </PerformanceRequirements>
+            <SkillRequirements>
+                    <Skill Code="S1">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S1.1" />
+                                    <SkillPoint Code="S1.2" />
+                                    <SkillPoint Code="S1.3" />
+                                    <SkillPoint Code="S1.4" />
+                                    <SkillPoint Code="S1.5" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S2">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S2.1" />
+                                    <SkillPoint Code="S2.2" />
+                                    <SkillPoint Code="S2.3" />
+                                    <SkillPoint Code="S2.4" />
+                                    <SkillPoint Code="S2.5" />
+                                    <SkillPoint Code="S2.6" />
+                                    <SkillPoint Code="S2.7" />
+                                    <SkillPoint Code="S2.8" />
+                                    <SkillPoint Code="S2.9" />
+                                    <SkillPoint Code="S2.10" />
+                                    <SkillPoint Code="S2.11" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S3">
+                            <Criteria NumberToMeet="7" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S3.1" />
+                                    <SkillPoint Code="S3.2" />
+                                    <SkillPoint Code="S3.3" />
+                                    <SkillPoint Code="S3.4" />
+                                    <SkillPoint Code="S3.5" />
+                                    <SkillPoint Code="S3.6" />
+                                    <SkillPoint Code="S3.7" />
+                                    <SkillPoint Code="S3.8" />
+                                    <SkillPoint Code="S3.9" />
+                                    <SkillPoint Code="S3.10" />
+                                    <SkillPoint Code="S3.11" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S4">
+                            <Criteria NumberToMeet="3" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S4.1" />
+                                    <SkillPoint Code="S4.2" />
+                                    <SkillPoint Code="S4.3" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S5">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S5.1" />
+                                    <SkillPoint Code="S5.2" />
+                                    <SkillPoint Code="S5.3" />
+                                    <SkillPoint Code="S5.4" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S6">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S6.1" />
+                                    <SkillPoint Code="S6.2" />
+                                    <SkillPoint Code="S6.3" />
+                                    <SkillPoint Code="S6.4" />
+                                    <SkillPoint Code="S6.5" />
+                                    <SkillPoint Code="S6.6" />
+                                    <SkillPoint Code="S6.7" />
+                                    <SkillPoint Code="S6.8" />
+                                    <SkillPoint Code="S6.9" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S7">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S7.1" />
+                                    <SkillPoint Code="S7.2" />
+                                    <SkillPoint Code="S7.3" />
+                                    <SkillPoint Code="S7.4" />
+                                    <SkillPoint Code="S7.5" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S8">
+                            <Criteria NumberToMeet="6" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S8.1" />
+                                    <SkillPoint Code="S8.2" />
+                                    <SkillPoint Code="S8.3" />
+                                    <SkillPoint Code="S8.4" />
+                                    <SkillPoint Code="S8.5" />
+                                    <SkillPoint Code="S8.6" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S9">
+                            <Criteria NumberToMeet="1" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S9.1" />
+                                    <SkillPoint Code="S9.2" />
+                                    <SkillPoint Code="S9.3" />
+                                    <SkillPoint Code="S9.4" />
+                                    <SkillPoint Code="S9.5" />
+                                    <SkillPoint Code="S9.6" />
+                            </Points>
+                    </Skill>
+            </SkillRequirements>
+        </Module>
+        <Module Code="EAMD4-115">        
+            <PerformanceRequirements>
+                    <Performance Code="P1" />
+                    <Performance Code="P2" />
+                    <Performance Code="P3" />
+                    <Performance Code="P4" />
+                    <Performance Code="P5" />
+                    <Performance Code="P5" />
+                    <Performance Code="P6" />
+                    <Performance Code="P7" />
+                    <Performance Code="P8" />
+                    <Performance Code="P9" />
+                    <Performance Code="P10" />
+                    <Performance Code="P11" />
+                    <Performance Code="P12" />
+            </PerformanceRequirements>
+            <SkillRequirements>
+                    <Skill Code="S1">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S1.1" />
+                                    <SkillPoint Code="S1.2" />
+                                    <SkillPoint Code="S1.3" />
+                                    <SkillPoint Code="S1.4" />
+                                    <SkillPoint Code="S1.5" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S2">
+                            <Criteria NumberToMeet="4" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S2.1" />
+                                    <SkillPoint Code="S2.2" />
+                                    <SkillPoint Code="S2.3" />
+                                    <SkillPoint Code="S2.4" />
+                                    <SkillPoint Code="S2.5" />
+                                    <SkillPoint Code="S2.6" />
+                                    <SkillPoint Code="S2.7" />
+                                    <SkillPoint Code="S2.8" />
+                                    <SkillPoint Code="S2.9" />
+                                    <SkillPoint Code="S2.10" />
+                                    <SkillPoint Code="S2.11" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S3">
+                            <Criteria NumberToMeet="7" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S3.1" />
+                                    <SkillPoint Code="S3.2" />
+                                    <SkillPoint Code="S3.3" />
+                                    <SkillPoint Code="S3.4" />
+                                    <SkillPoint Code="S3.5" />
+                                    <SkillPoint Code="S3.6" />
+                                    <SkillPoint Code="S3.7" />
+                                    <SkillPoint Code="S3.8" />
+                                    <SkillPoint Code="S3.9" />
+                                    <SkillPoint Code="S3.10" />
+                                    <SkillPoint Code="S3.11" />
+                                    <SkillPoint Code="S3.12" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S4">
+                            <Criteria NumberToMeet="4" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S4.1" />
+                                    <SkillPoint Code="S4.2" />
+                                    <SkillPoint Code="S4.3" />
+                                    <SkillPoint Code="S4.4" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S5">
+                            <Criteria NumberToMeet="1" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S5.1" />
+                                    <SkillPoint Code="S5.2" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S6">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S6.1" />
+                                    <SkillPoint Code="S6.2" />
+                                    <SkillPoint Code="S6.3" />
+                                    <SkillPoint Code="S6.4" />
+                                    <SkillPoint Code="S6.5" />
+                                    <SkillPoint Code="S6.6" />
+                                    <SkillPoint Code="S6.7" />
+                                    <SkillPoint Code="S6.8" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S7">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S7.1" />
+                                    <SkillPoint Code="S7.2" />
+                                    <SkillPoint Code="S7.3" />
+                                    <SkillPoint Code="S7.4" />
+                                    <SkillPoint Code="S7.5" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S8">
+                            <Criteria NumberToMeet="6" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S8.1" />
+                                    <SkillPoint Code="S8.2" />
+                                    <SkillPoint Code="S8.3" />
+                                    <SkillPoint Code="S8.4" />
+                                    <SkillPoint Code="S8.5" />
+                                    <SkillPoint Code="S8.6" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S9">
+                            <Criteria NumberToMeet="1" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S9.1" />
+                                    <SkillPoint Code="S9.2" />
+                                    <SkillPoint Code="S9.3" />
+                                    <SkillPoint Code="S9.4" />
+                                    <SkillPoint Code="S9.5" />
+                                    <SkillPoint Code="S9.6" />
+                            </Points>
+                    </Skill>
+            </SkillRequirements>
+        </Module>
+        <Module Code="EAMD4-116">        
+            <PerformanceRequirements>
+                    <Performance Code="P1" />
+                    <Performance Code="P2" />
+                    <Performance Code="P3" />
+                    <Performance Code="P4" />
+                    <Performance Code="P5" />
+                    <Performance Code="P6" />
+                    <Performance Code="P7" />
+                    <Performance Code="P8" />
+                    <Performance Code="P9" />
+                    <Performance Code="P10" />
+                    <Performance Code="P12" />
+            </PerformanceRequirements>
+            <SkillRequirements>
+                    <Skill Code="S1">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S1.1" />
+                                    <SkillPoint Code="S1.2" />
+                                    <SkillPoint Code="S1.3" />
+                                    <SkillPoint Code="S1.4" />
+                                    <SkillPoint Code="S1.5" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S2">
+                            <Criteria NumberToMeet="4" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S2.1" />
+                                    <SkillPoint Code="S2.2" />
+                                    <SkillPoint Code="S2.3" />
+                                    <SkillPoint Code="S2.4" />
+                                    <SkillPoint Code="S2.5" />
+                                    <SkillPoint Code="S2.6" />
+                                    <SkillPoint Code="S2.7" />
+                                    <SkillPoint Code="S2.8" />
+                                    <SkillPoint Code="S2.9" />
+                                    <SkillPoint Code="S2.10" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S3">
+                            <Criteria NumberToMeet="6" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S3.1" />
+                                    <SkillPoint Code="S3.2" />
+                                    <SkillPoint Code="S3.3" />
+                                    <SkillPoint Code="S3.4" />
+                                    <SkillPoint Code="S3.5" />
+                                    <SkillPoint Code="S3.6" />
+                                    <SkillPoint Code="S3.7" />
+                                    <SkillPoint Code="S3.8" />
+                                    <SkillPoint Code="S3.9" />
+                                    <SkillPoint Code="S3.10" />
+                                    <SkillPoint Code="S3.11" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S4">
+                            <Criteria NumberToMeet="3" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S4.1" />
+                                    <SkillPoint Code="S4.2" />
+                                    <SkillPoint Code="S4.3" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S5">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S5.1" />
+                                    <SkillPoint Code="S5.2" />
+                                    <SkillPoint Code="S5.3" />
+                                    <SkillPoint Code="S5.4" />
+                                    <SkillPoint Code="S5.5" />
+                                    <SkillPoint Code="S5.6" />
+                                    <SkillPoint Code="S5.7" />
+                                    <SkillPoint Code="S5.8" />
+                                    <SkillPoint Code="S5.9" />
+                                    <SkillPoint Code="S5.10" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S6">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S6.1" />
+                                    <SkillPoint Code="S6.2" />
+                                    <SkillPoint Code="S6.3" />
+                                    <SkillPoint Code="S6.4" />
+                                    <SkillPoint Code="S6.5" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S7">
+                            <Criteria NumberToMeet="1" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S7.1" />
+                                    <SkillPoint Code="S7.2" />
+                                    <SkillPoint Code="S7.3" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S8">
+                            <Criteria NumberToMeet="7" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S8.1" />
+                                    <SkillPoint Code="S8.2" />
+                                    <SkillPoint Code="S8.3" />
+                                    <SkillPoint Code="S8.4" />
+                                    <SkillPoint Code="S8.5" />
+                                    <SkillPoint Code="S8.6" />
+                                    <SkillPoint Code="S8.7" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S9">
+                            <Criteria NumberToMeet="1" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S9.1" />
+                                    <SkillPoint Code="S9.2" />
+                                    <SkillPoint Code="S9.3" />
+                                    <SkillPoint Code="S9.4" />
+                                    <SkillPoint Code="S9.5" />
+                                    <SkillPoint Code="S9.6" />
+                            </Points>
+                    </Skill>
+            </SkillRequirements>
+        </Module>
+        <Module Code="EAMD4-117">        
+            <PerformanceRequirements>
+                    <Performance Code="P1" />
+                    <Performance Code="P2" />
+                    <Performance Code="P3" />
+                    <Performance Code="P4" />
+                    <Performance Code="P5" />
+                    <Performance Code="P6" />
+                    <Performance Code="P7" />
+                    <Performance Code="P8" />
+                    <Performance Code="P9" />
+                    <Performance Code="P10" />
+                    <Performance Code="P11" />
+                    <Performance Code="P12" />
+                    <Performance Code="P13" />
+                    <Performance Code="P14" />
+            </PerformanceRequirements>
+            <SkillRequirements>
+                    <Skill Code="S1">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S1.1" />
+                                    <SkillPoint Code="S1.2" />
+                                    <SkillPoint Code="S1.3" />
+                                    <SkillPoint Code="S1.4" />
+                                    <SkillPoint Code="S1.5" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S2">
+                            <Criteria NumberToMeet="4" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S2.1" />
+                                    <SkillPoint Code="S2.2" />
+                                    <SkillPoint Code="S2.3" />
+                                    <SkillPoint Code="S2.4" />
+                                    <SkillPoint Code="S2.5" />
+                                    <SkillPoint Code="S2.6" />
+                                    <SkillPoint Code="S2.7" />
+                                    <SkillPoint Code="S2.8" />
+                                    <SkillPoint Code="S2.9" />
+                                    <SkillPoint Code="S2.10" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S3">
+                            <Criteria NumberToMeet="7" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S3.1" />
+                                    <SkillPoint Code="S3.2" />
+                                    <SkillPoint Code="S3.3" />
+                                    <SkillPoint Code="S3.4" />
+                                    <SkillPoint Code="S3.5" />
+                                    <SkillPoint Code="S3.6" />
+                                    <SkillPoint Code="S3.7" />
+                                    <SkillPoint Code="S3.8" />
+                                    <SkillPoint Code="S3.9" />
+                                    <SkillPoint Code="S3.10" />
+                                    <SkillPoint Code="S3.11" />
+                                    <SkillPoint Code="S3.12" />
+                                    <SkillPoint Code="S3.13" />
+                                    <SkillPoint Code="S3.14" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S4">
+                            <Criteria NumberToMeet="3" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S4.1" />
+                                    <SkillPoint Code="S4.2" />
+                                    <SkillPoint Code="S4.3" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S5">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S5.1" />
+                                    <SkillPoint Code="S5.2" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S6">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S6.1" />
+                                    <SkillPoint Code="S6.2" />
+                                    <SkillPoint Code="S6.3" />
+                                    <SkillPoint Code="S6.4" />
+                                    <SkillPoint Code="S6.5" />
+                                    <SkillPoint Code="S6.6" />
+                                    <SkillPoint Code="S6.7" />
+                                    <SkillPoint Code="S6.8" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S7">
+                            <Criteria NumberToMeet="1" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S7.1" />
+                                    <SkillPoint Code="S7.2" />
+                                    <SkillPoint Code="S7.3" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S8">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S8.1" />
+                                    <SkillPoint Code="S8.2" />
+                                    <SkillPoint Code="S8.3" />
+                                    <SkillPoint Code="S8.4" />
+                                    <SkillPoint Code="S8.5" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S9">
+                            <Criteria NumberToMeet="6" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S9.1" />
+                                    <SkillPoint Code="S9.2" />
+                                    <SkillPoint Code="S9.3" />
+                                    <SkillPoint Code="S9.4" />
+                                    <SkillPoint Code="S9.5" />
+                                    <SkillPoint Code="S9.6" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S10">
+                            <Criteria NumberToMeet="1" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S10.1" />
+                                    <SkillPoint Code="S10.2" />
+                                    <SkillPoint Code="S10.3" />
+                                    <SkillPoint Code="S10.4" />
+                                    <SkillPoint Code="S10.5" />
+                                    <SkillPoint Code="S10.6" />
+                            </Points>
+                    </Skill>
+            </SkillRequirements>
+        </Module>
+        <Module Code="EAMD4-119">        
+            <PerformanceRequirements>
+                <Performance Code="P1" />
+                <Performance Code="P2" />
+                <Performance Code="P3" />
+                <Performance Code="P4" />
+                <Performance Code="P5" />
+                <Performance Code="P6" />
+                <Performance Code="P7" />
+                <Performance Code="P8" />
+                <Performance Code="P9" />
+                <Performance Code="P10" />
+            </PerformanceRequirements>
+            <SkillRequirements>
+                    <Skill Code="S1">
+                            <Criteria NumberToMeet="6" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S1.1" />
+                                    <SkillPoint Code="S1.2" />
+                                    <SkillPoint Code="S1.3" />
+                                    <SkillPoint Code="S1.4" />
+                                    <SkillPoint Code="S1.5" />
+                                    <SkillPoint Code="S1.6" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S2">
+                            <Criteria NumberToMeet="3" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S2.1" />
+                                    <SkillPoint Code="S2.2" />
+                                    <SkillPoint Code="S2.3" />
+                                    <SkillPoint Code="S2.4" />
+                                    <SkillPoint Code="S2.5" />
+                                    <SkillPoint Code="S2.6" />
+                                    <SkillPoint Code="S2.7" />
+                                    <SkillPoint Code="S2.8" />
+                                    <SkillPoint Code="S2.9" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S3">
+                            <Criteria NumberToMeet="3" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S3.1" />
+                                    <SkillPoint Code="S3.2" />
+                                    <SkillPoint Code="S3.3" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S4">
+                            <Criteria NumberToMeet="1" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S4.1" />
+                                    <SkillPoint Code="S4.2" />
+                                    <SkillPoint Code="S4.3" />
+                                    <SkillPoint Code="S4.4" />
+                                    <SkillPoint Code="S4.5" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S5">
+                            <Criteria NumberToMeet="4" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S5.1" />
+                                    <SkillPoint Code="S5.2" />
+                                    <SkillPoint Code="S5.3" />
+                                    <SkillPoint Code="S5.4" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S6">
+                            <Criteria NumberToMeet="3" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S6.1" />
+                                    <SkillPoint Code="S6.2" />
+                                    <SkillPoint Code="S6.3" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S7">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S7.1" />
+                                    <SkillPoint Code="S7.2" />
+                                    <SkillPoint Code="S7.3" />
+                                    <SkillPoint Code="S7.4" />
+                            </Points>
+                    </Skill>
+            </SkillRequirements>
+        </Module>
+        <Module Code="EAMD4-120">        
+            <PerformanceRequirements>
+                    <Performance Code="P1" />
+                    <Performance Code="P2" />
+                    <Performance Code="P3" />
+                    <Performance Code="P4" />
+                    <Performance Code="P5" />
+                    <Performance Code="P6" />
+                    <Performance Code="P7" />
+                    <Performance Code="P8" />
+                    <Performance Code="P9" />
+                    <Performance Code="P10" />
+            </PerformanceRequirements>
+            <SkillRequirements>
+                    <Skill Code="S1">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S1.1" />
+                                    <SkillPoint Code="S1.2" />
+                                    <SkillPoint Code="S1.3" />
+                                    <SkillPoint Code="S1.4" />
+                                    <SkillPoint Code="S1.5" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S2">
+                            <Criteria NumberToMeet="2" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S2.1" />
+                                    <SkillPoint Code="S2.2" />
+                                    <SkillPoint Code="S2.3" />
+                                    <SkillPoint Code="S2.4" />
+                                    <SkillPoint Code="S2.5" />
+                                    <SkillPoint Code="S2.6" />
+                                    <SkillPoint Code="S2.7" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S3">
+                            <Criteria NumberToMeet="3" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S3.1" />
+                                    <SkillPoint Code="S3.2" />
+                                    <SkillPoint Code="S3.3" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S4">
+                            <Criteria NumberToMeet="3" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S4.1" />
+                                    <SkillPoint Code="S4.2" />
+                                    <SkillPoint Code="S4.3" />
+                                    <SkillPoint Code="S4.4" />
+                                    <SkillPoint Code="S4.5" />
+                                    <SkillPoint Code="S4.6" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S5">
+                            <Criteria NumberToMeet="4" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S5.1" />
+                                    <SkillPoint Code="S5.2" />
+                                    <SkillPoint Code="S5.3" />
+                                    <SkillPoint Code="S5.4" />
+                            </Points>
+                    </Skill>
+                    <Skill Code="S6">
+                            <Criteria NumberToMeet="5" Unique="true" />
+                            <Points>
+                                    <SkillPoint Code="S6.1" />
+                                    <SkillPoint Code="S6.2" />
+                                    <SkillPoint Code="S6.3" />
+                                    <SkillPoint Code="S6.4" />
+                                    <SkillPoint Code="S6.5" />
+                            </Points>
+                    </Skill>
+            </SkillRequirements>
+        </Module>
+    </Modules>
+</NvqSpecification>
