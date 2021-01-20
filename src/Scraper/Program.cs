@@ -18,6 +18,12 @@ namespace Scaper
         /// <param name="lookAt">A module to print out i.e. EAMD4-114</param>
         static void Main(FileInfo gapAnalysis, string lookAt = null, bool showGaps = true)
         {
+            if (gapAnalysis is null)
+            {
+                Fail($@"Please provide a file to process or use the -h option to see the help menu.");
+                return;
+            }
+            
             if (!gapAnalysis.Exists)
             {
                 Fail($@"{gapAnalysis} cannot be found to process");
