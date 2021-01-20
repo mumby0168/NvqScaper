@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Xml.Serialization;
 using HtmlAgilityPack;
+using Scaper.Sinks;
 using Scaper.Specification;
 
 namespace Scaper
@@ -12,7 +13,8 @@ namespace Scaper
     {
         public enum AvailableSinks
         {
-            Console=1
+            Console=1,
+            File=2
         }
         
         private static ISink _sink = null;
@@ -22,7 +24,7 @@ namespace Scaper
         /// <param name="showGaps">Whether to only show gaps defaults to true</param>
         /// <param name="nvqSpecification">The path to the nvq specification file</param>
         /// <param name="lookAt">A module to print out i.e. EAMD4-114</param>
-        /// /// <param name="sinkType">The type of sink to use to write output</param>
+        /// <param name="sinkType">The type of sink to use to write output</param>
         static void Main(FileInfo gapAnalysis, FileInfo nvqSpecification=null, string lookAt = null, bool showGaps = true, AvailableSinks sinkType = AvailableSinks.Console)
         {
             switch (sinkType)
@@ -32,6 +34,10 @@ namespace Scaper
                 
                 case AvailableSinks.Console:
                     _sink = new ConsoleSink();
+                    break;
+                
+                case AvailableSinks.File:
+                    _sink = new FileSink();
                     break;
             }
             

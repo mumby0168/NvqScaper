@@ -1,7 +1,7 @@
 ﻿using System;
 using Scaper.Specification;
 
-namespace Scaper
+namespace Scaper.Sinks
 {
     public interface ISink
     {
