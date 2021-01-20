@@ -1,16 +1,24 @@
 ﻿using System;
-using System.Net.Http;
+using System.IO;
+using System.Runtime.CompilerServices;
 using Scaper.Specification;
 
-namespace Scaper
+namespace Scaper.Sinks
 {
-    public class ConsoleSink : ISink
+    public class FileSink : ISink
     {
+        private const string _filepath = "gap_analysis.txt";
+        public FileSink()
+        {
+            if (File.Exists(_filepath))
+            {
+                File.Delete(_filepath);
+            }
+        }
+        
         public void Write(string message, ConsoleColor color = ConsoleColor.White)
         {
-            Console.ForegroundColor = color;
-            Console.WriteLine(message);
-            Console.ResetColor();
+            File.AppendAllText(_filepath, message + "\n");
         }
 
         public void WriteError(string errorMessage)
