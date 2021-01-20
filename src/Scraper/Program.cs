@@ -25,13 +25,6 @@ namespace Scaper
         /// /// <param name="sinkType">The type of sink to use to write output</param>
         static void Main(FileInfo gapAnalysis, FileInfo nvqSpecification=null, string lookAt = null, bool showGaps = true, AvailableSinks sinkType = AvailableSinks.Console)
         {
-            if (nvqSpecification == null)
-            {
-                nvqSpecification = new FileInfo("nvq_specification.xml");
-            }
-
-            _nvq = NvqSpecification.Load(nvqSpecification.FullName);
-            
             switch (sinkType)
             {
                 default:
@@ -41,6 +34,16 @@ namespace Scaper
                     _sink = new ConsoleSink();
                     break;
             }
+            
+            
+            if (nvqSpecification == null)
+            {
+                nvqSpecification = new FileInfo("nvq_specification.xml");
+            }
+            _nvq = NvqSpecification.Load(nvqSpecification.FullName);
+
+            _sink.Write($"Loaded NVQ Specification, version {_nvq.Version}.");
+
             
             if (gapAnalysis is null)
             {
@@ -67,12 +70,12 @@ namespace Scaper
             }
 
             var chapterBlocks = folder.Descendants().Where(d => d.HasClass("chapter-block")).ToList();
-
+            _sink.Write($"Found {chapterBlocks.Count} modules");
+            
             foreach (var block in chapterBlocks)
             {
-                _sink.Write($"Found {chapterBlocks.Count} modules");
                 var title = block.Descendants().First(d => d.HasClass("hr-text"));
-                _sink.Write($"{title.InnerText} processing");
+                _sink.Write($"Processing {title.InnerText}");
 
                 var table = block.Descendants().First(d => d.HasClass("table"));
                 var body = table.Descendants().First(d => d.Name == "tbody");
@@ -106,7 +109,7 @@ namespace Scaper
                             var performance = module.GetPerformance(code);
                             if (performance == null)
                             {
-                                _sink.WriteWarning($"Performance point with the code {title.ChildNodes.First().InnerText} cannot be found!");
+                                _sink.WriteWarning($"Performance point with the code {code} cannot be found!");
                                 continue;
                             }
                             
@@ -136,42 +139,42 @@ namespace Scaper
             
             _sink.Write($"Outputting .......", ConsoleColor.Green);
 
-            if (showGaps)
+            if (lookAt is not null)
             {
-                foreach (var nvqModule in _nvq.Modules)
+                var module = _nvq.GetModule(lookAt);
+                
+                if (showGaps)
                 {
-                    _sink.WriteModuleGapAnalysis(nvqModule);
+                    foreach (var nvqModule in _nvq.Modules)
+                    {
+                        _sink.WriteModuleGapAnalysis(nvqModule);
+                    }
+                }
+                else
+                {
+                    foreach (var nvqModule in _nvq.Modules)
+                    {
+                        _sink.WriteModuleSummary(nvqModule);
+                    }
                 }
             }
             else
             {
-                foreach (var nvqModule in _nvq.Modules)
+                if (showGaps)
                 {
-                    _sink.WriteModuleSummary(nvqModule);
+                    foreach (var nvqModule in _nvq.Modules)
+                    {
+                        _sink.WriteModuleGapAnalysis(nvqModule);
+                    }
+                }
+                else
+                {
+                    foreach (var nvqModule in _nvq.Modules)
+                    {
+                        _sink.WriteModuleSummary(nvqModule);
+                    }
                 }
             }
-
-            // if (lookAt is not null)
-            // {
-            //     var module = modules.FirstOrDefault(m => m.Name == lookAt);
-            //     if (module is null)
-            //     {
-            //         _sink.WriteError($"{lookAt} cannot be found");
-            //     }
-            //     else
-            //     {
-            //         _sink.Write(module.Name, ConsoleColor.Cyan);
-            //         WriteCriteria(showGaps, module);
-            //     }
-            // }
-            // else
-            // {
-            //     foreach (var module in modules)
-            //     {
-            //         _sink.Write(module.Name, ConsoleColor.Cyan);
-            //         WriteCriteria(showGaps, module);
-            //     }
-            // }
         }
     }
 }

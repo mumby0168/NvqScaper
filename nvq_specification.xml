@@ -1,4 +1,4 @@
-<NvqSpecification version="1.0.0">
+<NvqSpecification Version="1.0.0">
     <Modules>
         <Module Code="EAMD4-001">        
             <PerformanceRequirements>

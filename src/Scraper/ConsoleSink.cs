@@ -15,15 +15,13 @@ namespace Scaper
 
         public void WriteError(string errorMessage)
         {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(errorMessage);
-            Console.ResetColor();
+            Write("Error: " + errorMessage, ConsoleColor.Red);
         }
 
         public void WriteModuleGapAnalysis(Module module)
         {
             Write($"Module ({module.Code}) Gap Analysis", ConsoleColor.Green);
-            Write("Performance Summary");
+            Write("Performance Gaps");
             foreach (var performanceRequirement in module.PerformanceRequirements)
             {
                 if (!performanceRequirement.Evaluate())
@@ -32,7 +30,7 @@ namespace Scaper
                 }
             }
             
-            Write("Skill Summary");
+            Write("Skill Gaps");
             foreach (var skillRequirement in module.SkillRequirements)
             {
                 if (!skillRequirement.Evaluate())
@@ -83,7 +81,7 @@ namespace Scaper
         
         public void WriteWarning(string warningMessage)
         {
-            Write(warningMessage, ConsoleColor.Yellow);
+            Write("Warning: " + warningMessage, ConsoleColor.Yellow);
         }
     }
 }
